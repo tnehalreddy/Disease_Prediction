@@ -72,9 +72,9 @@ The dataset used for training the model contains various symptoms mapped to thei
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
 ## License
-This project is licensed under the **MIT License**. You can view the license [here](https://github.com/SurajReddy18/Disease_Prediction/blob/main/LICENSE).
+This project is licensed under the **MIT License**. You can view the license [here](https://github.com/tnehalreddy/Disease_Prediction/blob/main/LICENSE).
 
 ## Contact
 If you have any questions or feedback, feel free to reach out:
-- **Email**: surajreddy107@gmail.com
-- **GitHub**: [SurajReddy18](https://github.com/SurajReddy18)
+- **Email**: tnehalreddy@gmail.com
+- **GitHub**: [tnehalreddy](https://github.com/tnehalreddy)
