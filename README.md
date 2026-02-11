@@ -39,7 +39,7 @@ A machine learning-based project to predict diseases based on input symptoms. Th
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SurajReddy18/Disease_Prediction.git
+   git clone https://github.com/tnehalreddy/Disease_Prediction.git
    ```
 2. Navigate to the project directory:
    ```bash
