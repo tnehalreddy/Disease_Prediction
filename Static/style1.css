@@ -1,0 +1,286 @@
+* {
+    color: black;
+    box-sizing: border-box;
+}
+
+.h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.p1 {
+    color: black;
+    display: flex;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.p2 {
+    color: black;
+    display: flex;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tablink.active {
+    background-color: #ccc;
+}
+
+.prediction {
+    display: none;
+}
+
+.resultdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.result,
+.input {
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    transition: transform 0.3s ease, border 0.3s ease;
+    background-color: red
+}
+
+.input {
+    background-color: white;
+}
+
+.result {
+    background-color: red;
+    color: white;
+}
+
+.input:hover,
+.result:hover {
+    transform: scale(1.05);
+    border: 2px solid red;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+.main2 {
+    display: flex;
+    text-align: center;
+    padding-left: 40px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+
+.sub {
+    display: flex;
+    width: 33%;
+    align-items: center;
+}
+
+#diabetes {
+    background-image: url('diabetes.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#heart {
+    background-image: url('heart.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.body2,
+.body {
+    background-size: cover;
+    justify-content: center;
+    height: 700px;
+    opacity: 0.1;
+}
+
+.tablink {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    border-radius: 7px;
+}
+
+.tablink.active {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.tablink:hover {
+    color: red;
+    transform: scale(1.05);
+}
+
+.prediction.active {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tablink {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.tablink.active {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.tablink:hover {
+    color: red;
+}
+
+.prediction {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.result:hover {
+    transform: scale(1.05);
+    background-color: #c40000;
+}
+
+#heart_pred_result #diabetic_pred_restult {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    background-color: aquamarine;
+}
+
+.pred_result {
+    background-color: #ccffcc;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.suggestions {
+    background-color: #ffffcc;
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .main,
+    .main2 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .sub {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .label {
+        margin-bottom: 10px;
+    }
+
+    .resultdiv {
+        margin-top: 10px;
+    }
+
+    .pred_result,
+    .suggestions {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.h1 {
+    font-size: 4rem;
+}
+
+.h2 {
+    font-size: 4rem;
+}
+.prediction {
+    display: none;
+    /* Add other styling properties as needed */
+}
+
+.prediction.active {
+    display: block;
+    /* Add other styling properties as needed */
+}
+
+.hidden {
+    display: none;
+}
